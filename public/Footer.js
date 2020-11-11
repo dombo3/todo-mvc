@@ -1,5 +1,6 @@
-import { Filters } from './Filters.mjs';
-import { FilterButton } from './FilterButton.mjs';
+import { Filters } from './Filters.js';
+import { FilterButton } from './FilterButton.js';
+import { APP_ALL, APP_ACTIVE, APP_COMPLETED } from './const.js';
 export class Footer extends React.Component {
   constructor(props) {
     super(props);

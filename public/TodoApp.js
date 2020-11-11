@@ -1,7 +1,7 @@
-import { Item } from './Item.mjs';
-import { TodoItem } from './TodoItem.mjs';
-import { Footer } from './Footer.mjs';
-import { APP_ALL, APP_ACTIVE, APP_COMPLETED } from 'const.mjs';
+import { Item } from './Item.js';
+import { TodoItem } from './TodoItem.js';
+import { Footer } from './Footer.js';
+import { APP_ALL, APP_ACTIVE, APP_COMPLETED } from './const.js';
 export class TodoApp extends React.Component {
   constructor(props) {
     super(props);

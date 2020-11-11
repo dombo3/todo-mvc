@@ -1,4 +1,4 @@
-import { ENTER_KEYCODE, ESCAPE_KEYCODE } from 'const.mjs';
+import { ENTER_KEYCODE, ESCAPE_KEYCODE } from './const.js';
 export class Item extends React.Component {
   constructor(props) {
     super(props);
